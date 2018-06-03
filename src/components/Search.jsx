@@ -10,8 +10,8 @@ export default class Search extends React.Component {
   render() {
     return (
       <div className="searchContainer">
-          <input class="search" placeholder="Search Names" type="text"/>
-          <button class="searchButton">Search</button>
+          <input tabIndex="1" class="search" placeholder="Add attendee" type="text"/>
+          <button class="searchButton">Go</button>
       </div>
     );
   }

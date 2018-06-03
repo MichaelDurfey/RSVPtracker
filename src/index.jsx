@@ -16,9 +16,11 @@ class App extends React.Component {
     return (
       <div className="mainContainer">
         <div className="container">
-          <div class="imageDiv">
+          <div className="imageDiv">
           <NavBar />
-          <h1 className="title">RSVP</h1>
+          <div className ="titleContainer">
+            <h1 className="title">RSVP</h1>
+          </div>
           </div>
           <Search />
           <div class ="attendees">
